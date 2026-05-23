@@ -30,6 +30,28 @@ graph TD
 
 ---
 
+## 📷 Visual System Gallery
+
+Here is the Multi-Source RAG Assistant in action across all architectural layers:
+
+### 💬 1. Glassmorphic Chat Interface
+The Streamlit frontend dynamically processes unstructured PDFs (like candidate résumés) and performs complex contextual reasoning (e.g., grading projects as an ECE Professor).
+![Chat Interface](streamlit_dashboard.jpeg)
+
+### 📊 2. Live Telemetry Analytics Dashboard
+A dedicated, real-time analytics panel monitoring system usage metrics, response latencies, and transaction error rates.
+![Telemetry Analytics](streamlit_analysis.jpeg)
+
+### 🧠 3. Observability & Tracing (LangSmith)
+Deep execution tracing of the underlying LangGraph state machine, tracking every node invocation, token payload, and latency metric in LangSmith.
+![LangSmith Tracing](LangSmith_Tracing.jpeg)
+
+### 💾 4. SQL Conversation History (DBeaver)
+Persistent PostgreSQL database tables mapped via SQLAlchemy, logging thread-safe chat history and session variables transactionally.
+![PostgreSQL DBeaver](DBeaver.jpeg)
+
+---
+
 ## ✨ Features
 
 - **📂 Multi-Source Ingestion Engine:**
