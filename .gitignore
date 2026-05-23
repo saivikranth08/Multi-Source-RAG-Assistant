@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments (Virtual Environments)
+.venv/
+venv/
+ENV/
+env/
+
+# API Keys & Local Secrets (CRITICAL: Do NOT upload these to GitHub!)
+.env
+
+# Local Storage, Vector Store Directories, and Database logs
+qdrant_storage/
+uvicorn.log
+logs/
+*.db
+*.sqlite
+
+# Streamlit configuration & Local State files
+.streamlit/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+Desktop.ini

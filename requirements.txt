@@ -1,0 +1,45 @@
+# ====================== Core ======================
+streamlit==1.45.1
+
+# LangChain
+langchain==0.3.25
+langchain-core==0.3.60
+langchain-community==0.3.24
+langchain-text-splitters==0.3.8
+langchain-groq==0.3.2
+langchain-huggingface==0.2.0
+
+# LangGraph
+langgraph>=0.2.0
+
+# Embeddings
+sentence-transformers==3.4.1
+
+# Vector Store — Qdrant (replaces faiss-cpu)
+qdrant-client
+langchain-qdrant
+
+# Hugging Face
+huggingface-hub
+transformers
+
+# Document Loaders
+pypdf==5.5.0
+beautifulsoup4==4.13.4
+llama-parse==0.6.21
+llama-index-core==0.12.35
+
+# Utilities
+python-dotenv==1.1.0
+requests==2.32.3
+tiktoken==0.9.0
+aiohttp==3.11.18
+fastapi
+uvicorn[standard]
+
+# Tracing
+langsmith==0.3.0
+
+# Backend
+torch==2.4.1
+numpy==1.26.4
