@@ -235,7 +235,7 @@ graph TB
 ---
 
 <h3 align="center">📊 Technology Breakdown</h3>
----
+
 
 <div align="center">
 
