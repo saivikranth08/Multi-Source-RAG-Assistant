@@ -1,6 +1,6 @@
-# 💬 Multi-Source RAG Assistant
-
 <div align="center">
+
+# 💬 Multi-Source RAG Assistant
 
 ![RAG System](https://img.shields.io/badge/RAG-System-blue?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Python-3.10+-green?style=for-the-badge&logo=python)
@@ -191,7 +191,7 @@ graph TB
 <sub>Observability</sub>
 </td>
 <td align="center" width="16.66%">
-<img src="https://raw.githubusercontent.com/qdrant/qdrant/master/assets/logo.svg" width="65" height="65"><br>
+<img src="https://avatars.githubusercontent.com/u/91993427?s=200&v=4" width="65" height="65"><br>
 <b>Qdrant</b><br>
 <sub>Vector DB</sub>
 </td>
@@ -213,7 +213,7 @@ graph TB
 <sub>Embeddings</sub>
 </td>
 <td align="center" width="16.66%">
-<img src="https://groq.com/wp-content/uploads/2024/03/PBG-mark1-color.svg" width="65" height="65"><br>
+<img src="https://avatars.githubusercontent.com/u/161824701?s=200&v=4" width="65" height="65"><br>
 <b>Groq</b><br>
 <sub>LLM Inference</sub>
 </td>
