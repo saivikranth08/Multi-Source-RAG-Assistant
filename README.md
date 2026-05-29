@@ -232,9 +232,11 @@ graph TB
 </tr>
 </table>
 
-<h3 align="center">📊 Technology Breakdown</h3>
-<hr width="10%" align="center">
+---
 
+<h3 align="center">📊 Technology Breakdown</h3>
+
+---
 <div align="center">
 
 | Category | Technologies |
@@ -252,7 +254,6 @@ graph TB
 | **🐳 Infrastructure** | Docker Compose |
 
 </div>
-
 ---
 
 ## 📁 Project Structure
