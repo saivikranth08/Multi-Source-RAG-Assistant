@@ -205,7 +205,7 @@ graph TB
 <sub>Persistence</sub>
 </td>
 <td align="center" width="16.66%">
-<img src="https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png" width="75" height="65"><br>
+<img src="https://avatars.githubusercontent.com/u/5429470?s=200&v=4" width="65" height="65"><br>
 <b>Docker</b><br>
 <sub>Containerization</sub>
 </td>
@@ -232,10 +232,10 @@ graph TB
 </tr>
 </table>
 
-<h3 align="center">Technology Breakdown</h3>
-
 ---
 
+<h3 align="center">Technology Breakdown</h3>
+---
 <div align="center">
 
 | Category | Technologies |
@@ -448,11 +448,11 @@ Run the following commands in two separate terminal shells:
 ```mermaid
 sequenceDiagram
     participant User
-    participant UI as Streamlit UI
+    participant UI as "Streamlit UI"
     participant API as FastAPI
     participant LG as LangGraph
-    participant VS as Vector Store
-    participant LLM as Groq LLM
+    participant VS as "Vector Store"
+    participant LLM as "Groq LLM"
     participant DB as PostgreSQL
 
     User->>UI: Upload Document
