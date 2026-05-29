@@ -254,7 +254,7 @@ graph TB
 | **🐳 Infrastructure** | Docker Compose |
 
 </div>
----
+
 ---
 
 ## 📁 Project Structure
