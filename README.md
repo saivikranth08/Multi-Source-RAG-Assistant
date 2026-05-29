@@ -191,7 +191,7 @@ graph TB
 <sub>Observability</sub>
 </td>
 <td align="center" width="16.66%">
-<img src="https://qdrant.tech/img/logo_with_text.png" width="100" height="65"><br>
+<img src="https://raw.githubusercontent.com/qdrant/qdrant/master/assets/logo.svg" width="65" height="65"><br>
 <b>Qdrant</b><br>
 <sub>Vector DB</sub>
 </td>
@@ -351,12 +351,17 @@ uvicorn backend.api.main:app --host 127.0.0.1 --port 8000 --reload
 ```
 
 ### 5️⃣ Launch Frontend
- **Terminal 1 - Main Chat Interface:** ```bash
-streamlit run frontend/app.py
-```
- **Terminal 2 - Analytics Dashboard:** ```bash
-streamlit run frontend/simple_analytics.py
-```
+
+Run the following commands in two separate terminal shells:
+
+* **Terminal 1 — Main Chat Interface:**
+  ```bash
+  streamlit run frontend/app.py
+  ```
+* **Terminal 2 — Analytics Dashboard:**
+  ```bash
+  streamlit run frontend/simple_analytics.py
+  ```
 
 ---
 
@@ -482,7 +487,7 @@ This project is available for educational and commercial use.
 ---
 
 <div align="center">
- **Built with ❤️ using LangChain, FastAPI, and Streamlit** 
+ Built with ❤️ using LangChain, FastAPI, and Streamlit
 ⭐ Star this repo if you find it helpful!
 
 </div>
