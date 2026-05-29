@@ -15,7 +15,7 @@ An **industry-grade Retrieval-Augmented Generation (RAG) system** capable of ing
 
 ---
 
-## 🎯 Features
+<h2 align="center">🎯 Features</h2>
 
 <table>
 <tr>
@@ -161,7 +161,7 @@ graph TB
 
 ---
 
-## 🛠️ Tech Stack
+<h2 align="center">🛠️ Tech Stack</h2>
 
 <table>
 <tr>
@@ -230,7 +230,7 @@ graph TB
 </tr>
 </table>
 
-### Technology Breakdown
+<h3 align="center">Technology Breakdown</h3>
 
 | Category | Technologies |
 |----------|-------------|
@@ -274,7 +274,7 @@ MultiSource_RAG/
 
 ---
 
-## 🚀 Getting Started
+<h2 align="center">🚀 Getting Started</h2>
 
 ### Prerequisites
 
@@ -365,7 +365,7 @@ Run the following commands in two separate terminal shells:
 
 ---
 
-## ⚡ API Reference
+<h2 align="center">⚡ API Reference</h2>
 
 ### Endpoints Overview
 
@@ -466,7 +466,7 @@ sequenceDiagram
 
 ---
 
-## 🎨 UI Preview
+<h2 align="center">🎨 UI Preview</h2>
 
 <div align="center">
 
@@ -480,7 +480,7 @@ sequenceDiagram
 
 ---
 
-## 📝 License
+<h2 align="center">📝 License</h2>
 
 This project is available for educational and commercial use.
 
