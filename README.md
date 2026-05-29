@@ -234,8 +234,9 @@ graph TB
 
 ---
 
-<h3 align="center">Technology Breakdown</h3>
----
+<h3 align="center">📊 Technology Breakdown</h3>
+<hr width="10%" align="center">
+
 <div align="center">
 
 | Category | Technologies |
