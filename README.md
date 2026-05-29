@@ -238,6 +238,7 @@ graph TB
 
 <div align="center">
 
+
 | Category | Technologies |
 | :---: | :---: |
 | **🎨 Frontend** | Streamlit (Glassmorphic UI) |
