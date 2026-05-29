@@ -17,48 +17,50 @@ An **industry-grade Retrieval-Augmented Generation (RAG) system** capable of ing
 
 <h2 align="center">🎯 Features</h2>
 
-<table>
+<div align="center">
+<table width="100%">
 <tr>
-<td width="50%">
+<td width="50%" align="center">
 
 ### 📂 Multi-Source Ingestion
-- **Standard PDFs** - PyPDF instant text extraction
-- **Scanned/Image PDFs** - Deep OCR via LlamaParse
-- **Text Files** - UTF-8 safe streaming
-- **Web URLs** - BeautifulSoup scraping
+* **Standard PDFs** - PyPDF text extraction
+* **Scanned/Image PDFs** - OCR via LlamaParse
+* **Text Files** - UTF-8 safe streaming
+* **Web URLs** - BeautifulSoup scraping
 
 </td>
-<td width="50%">
+<td width="50%" align="center">
 
 ### 🔍 Advanced Retrieval
-- **Hybrid Search** - Dense + Sparse (60/40 weighting)
-- **Cohere Reranking** - `rerank-english-v3.0`
-- **High Precision** - Optimized candidate filtering
-- **BM25 Integration** - Keyword matching
+* **Hybrid Search** - Dense + Sparse (60/40)
+* **Cohere Reranking** - `rerank-english-v3.0`
+* **High Precision** - Candidate filtering
+* **BM25 Integration** - Keyword matching
 
 </td>
 </tr>
 <tr>
-<td width="50%">
+<td width="50%" align="center">
 
 ### 🧠 Intelligent Orchestration
-- **LangGraph State Machine** - Deterministic workflow
-- **Multi-Node Pipeline** - Retrieve → Prompt → Generate
-- **Groq LLM** - `llama-3.1-8b-instant`
-- **LangSmith Tracing** - Full observability
+* **LangGraph State Machine** - Deterministic
+* **Multi-Node Pipeline** - Retrieve → Prompt → Gen
+* **Groq LLM** - `llama-3.1-8b-instant`
+* **LangSmith Tracing** - Full observability
 
 </td>
-<td width="50%">
+<td width="50%" align="center">
 
 ### 💾 Persistent Memory
-- **PostgreSQL Backend** - Conversation history
-- **SQLAlchemy ORM** - Clean data modeling
-- **Session Management** - Cross-session context
-- **Analytics Telemetry** - Query & latency tracking
+* **PostgreSQL Backend** - Chat history
+* **SQLAlchemy ORM** - Clean data modeling
+* **Session Management** - Cross-session
+* **Analytics Telemetry** - Latency tracking
 
 </td>
 </tr>
 </table>
+</div>
 
 ---
 
@@ -163,7 +165,7 @@ graph TB
 
 <h2 align="center">🛠️ Tech Stack</h2>
 
-<table>
+<table align="center">
 <tr>
 <td align="center" width="16.66%">
 <img src="https://cdn.worldvectorlogo.com/logos/fastapi.svg" width="65" height="65"><br>
@@ -232,8 +234,12 @@ graph TB
 
 <h3 align="center">Technology Breakdown</h3>
 
+---
+
+<div align="center">
+
 | Category | Technologies |
-|----------|-------------|
+| :---: | :---: |
 | **🎨 Frontend** | Streamlit (Glassmorphic UI) |
 | **⚡ Backend** | FastAPI, Uvicorn |
 | **🧠 RAG Framework** | LangChain, LangGraph (State Machine) |
@@ -245,6 +251,8 @@ graph TB
 | **📄 OCR** | LlamaParse Cloud API |
 | **📈 Observability** | LangSmith Tracing & Monitoring |
 | **🐳 Infrastructure** | Docker Compose |
+
+</div>
 
 ---
 
@@ -367,68 +375,71 @@ Run the following commands in two separate terminal shells:
 
 <h2 align="center">⚡ API Reference</h2>
 
+<div align="center">
+
 ### Endpoints Overview
 
-<table>
+<table align="center">
 <thead>
 <tr>
-<th width="10%">Method</th>
-<th width="30%">Endpoint</th>
-<th width="60%">Description</th>
+<th width="15%" align="center">Method</th>
+<th width="35%" align="center">Endpoint</th>
+<th width="50%" align="center">Description</th>
 </tr>
 </thead>
 <tbody>
 
 <tr>
-<td><code>POST</code></td>
-<td><code>/upload/pdf</code></td>
-<td>📄 Upload standard digital PDF and build semantic index</td>
+<td align="center"><code>POST</code></td>
+<td align="center"><code>/upload/pdf</code></td>
+<td align="center">📄 Upload standard digital PDF and build semantic index</td>
 </tr>
 
 <tr>
-<td><code>POST</code></td>
-<td><code>/upload/scanned-pdf</code></td>
-<td>🔍 Upload scanned PDF with LlamaParse OCR processing</td>
+<td align="center"><code>POST</code></td>
+<td align="center"><code>/upload/scanned-pdf</code></td>
+<td align="center">🔍 Upload scanned PDF with LlamaParse OCR processing</td>
 </tr>
 
 <tr>
-<td><code>POST</code></td>
-<td><code>/upload/text</code></td>
-<td>📝 Upload and process UTF-8 text file</td>
+<td align="center"><code>POST</code></td>
+<td align="center"><code>/upload/text</code></td>
+<td align="center">📝 Upload and process UTF-8 text file</td>
 </tr>
 
 <tr>
-<td><code>POST</code></td>
-<td><code>/upload/url</code></td>
-<td>🌐 Scrape and ingest webpage content</td>
+<td align="center"><code>POST</code></td>
+<td align="center"><code>/upload/url</code></td>
+<td align="center">🌐 Scrape and ingest webpage content</td>
 </tr>
 
 <tr>
-<td><code>POST</code></td>
-<td><code>/query</code></td>
-<td>🧠 Execute LangGraph workflow and return AI response with sources</td>
+<td align="center"><code>POST</code></td>
+<td align="center"><code>/query</code></td>
+<td align="center">🧠 Execute LangGraph workflow and return AI response with sources</td>
 </tr>
 
 <tr>
-<td><code>GET</code></td>
-<td><code>/history/{session_id}</code></td>
-<td>📜 Retrieve conversation history for session</td>
+<td align="center"><code>GET</code></td>
+<td align="center"><code>/history/{session_id}</code></td>
+<td align="center">📜 Retrieve conversation history for session</td>
 </tr>
 
 <tr>
-<td><code>DELETE</code></td>
-<td><code>/clear/{session_id}</code></td>
-<td>🗑️ Clear specific session history</td>
+<td align="center"><code>DELETE</code></td>
+<td align="center"><code>/clear/{session_id}</code></td>
+<td align="center">🗑️ Clear specific session history</td>
 </tr>
 
 <tr>
-<td><code>DELETE</code></td>
-<td><code>/clear/all</code></td>
-<td>💥 Purge all conversation history</td>
+<td align="center"><code>DELETE</code></td>
+<td align="center"><code>/clear/all</code></td>
+<td align="center">💥 Purge all conversation history</td>
 </tr>
 
 </tbody>
 </table>
+</div>
 
 ---
 
@@ -482,7 +493,11 @@ sequenceDiagram
 
 <h2 align="center">📝 License</h2>
 
+<div align="center">
+
 This project is available for educational and commercial use.
+
+</div>
 
 ---
 
